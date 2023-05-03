@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width"=device-width,initial-scale=1.0">
+        <title> Document </title>
+        <link rel="stylesheet" href="../style.css">
+        
+    </head>
+    <body>
+
+            <div class="navbar">
+                <a href="../index.html">home</a>
+                <a href="html  pages/about.html">about</a>
+                <a href="services.html">services</a>
+                <a href="contact.html">contact</a>
+            </div>
+            <h1>contact with us</h1> 
+            <div class="container">
+                <div class="content">
+                 <h2>DR.Ahmed Yaser</h2>
+                 <p>specialist</p>
+                 <img src="../photo/2018_3_19_16_32_29_955.jpg" alt="image of clinic">
+
+                 </div>
+            </div> 
+            <div class="container">
+                 <div class="content">
+                     <h2>DR.Eman Ebrahim</h2>
+                     <p>consultant</p>
+                     <img src="../photo/2.jpg" alt="image of clinic">
+
+                     </div>
+            </div> 
+             <div class="container">
+                    <div class="content">
+                         <h2>DR. Mohame Ali</h2>
+                         <p>consultant</p>
+                         <img src="../photo/20180424050059059.jpg" alt="image of clinic">
+
+                         </div>
+                        </div>
+                        <form id="myform">
+                            <label for="name">name</label>
+                            <input type="text" id="name" name="name" required>
+                            <label for="email">email</label>
+                            <input type="email" id="email" name="email" required>
+                            <label for="message">message</label>
+                            <textarea  id="message" name="message" required></textarea>
+                            <button id="mybutton" type="submit">BOOK NOW</button>
+                        </form>
+                        <script>const form=document.getElementById("myform");
+                        const button =document.getElementById("mybutton");
+                        button.addEventListener("click",function()
+                        {
+                          form.submit();
+                        });
+                        </script>
+                
+
+                        </form>
+     </body>
+</html>
+
+
+ 
